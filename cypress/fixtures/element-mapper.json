@@ -1,0 +1,12 @@
+{
+  "loginField": "input[name='username']",
+  "passwordField": "input[name='password']",
+  "loginButton": "button[type='submit']",
+  "validUsername": "Admin",
+  "validPassword": "admin123",
+  "invalidPassword": "Admin123",
+  "successText": "Dashboard",
+  "dashboard": "h6",
+  "failureText": "Invalid credentials",
+  "error": ".orangehrm-login-error > div:nth-child(1) p"
+}
