@@ -2,9 +2,9 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'https://opensource-demo.orangehrmlive.com/',
+    baseUrl: 'https://vuejs.org/',
     viewportHeight: 938,
-    viewportWidth: 1560,
+    viewportWidth: 1520,
     defaultCommandTimeout: 10000,
     chromeWebSecurity: false,
     experimentalOriginDependencies: true,

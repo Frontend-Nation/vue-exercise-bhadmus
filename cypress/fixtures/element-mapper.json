@@ -1,12 +1,12 @@
 {
-  "loginField": "input[name='username']",
-  "passwordField": "input[name='password']",
-  "loginButton": "button[type='submit']",
-  "validUsername": "Admin",
-  "validPassword": "admin123",
-  "invalidPassword": "Admin123",
-  "successText": "Dashboard",
-  "dashboard": "h6",
-  "failureText": "Invalid credentials",
-  "error": ".orangehrm-login-error > div:nth-child(1) p"
+  "searchButton": ".DocSearch-Button-Placeholder",
+  "searchField": ".DocSearch-Input",
+  "searchedHeader": "#dynamic-argument-syntax-constraints",
+  "docTab": "nav > div:nth-of-type(1) button",
+  "quickStartOption": "a[href='/guide/quick-start']",
+  "quickStartHeader": "#quick-start",
+  "playgroundLink": "a[href*='https://play.vuejs.org/']",
+  "playgroundHeader": "h1 span",
+  "exampleOption": "a[href='/examples/']",
+  "APIref": "button"
 }

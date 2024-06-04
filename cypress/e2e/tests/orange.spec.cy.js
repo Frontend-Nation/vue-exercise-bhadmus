@@ -6,13 +6,12 @@ describe('Test Login Scenario', () => {
     })
   })
 
-  it('Positive Test', () => {
-    cy.login(data.validUsername, data.validPassword)
-    cy.verifyText(data.dashboard, data.successText)
+  it('Use the search feature', ()=>{
   })
 
-  it('Negative Test', () => {
-    cy.login(data.validUsername, data.invalidPassword)
-    cy.verifyText(data.error, data.failureText)
+  it('Pick Quick Start from the Doc list and handle a tab redirect', ()=>{
+  })
+
+  it('Pick Quick Start from the Doc list', () => {
   })
 })
